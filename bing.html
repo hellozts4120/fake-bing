@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>微软必应搜索-全球搜索，有求必应（bing）</title>
+    <link rel="stylesheet" href="styles/css/reset.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-container left">
+			<ul>
+				<li>&nbsp;</li>
+	            <li><a href="http://cn.bing.com/images?FORM=Z9LH" target="_blank" class="change-color">图片</a></li>
+	            <li><a href="http://cn.bing.com/videos?FORM=Z9LH1" target="_blank" class="change-color">视频</a></li>
+	            <li><a href="http://cn.bing.com/academic/?FORM=Z9LH2" target="_blank" class="change-color">学术</a></li>
+	            <li><a href="http://cn.bing.com/dict?FORM=Z9LH3" target="_blank" class="change-color">词典</a></li>
+	            <li><a href="http://cn.bing.com/ditu/?FORM=Z9LH4" target="_blank" class="change-color">地图</a></li>
+	            <li><a href="http://cn.bing.com/explore?FORM=Z9LH5" target="_blank" class="change-color">更多</a></li>
+				<li>|</li>
+				<li class="change-color office_online" id="show-office"><a href="http://www.office.com/?WT.mc_id=O16_BingHP">OFFICE ONLINE
+					<div class="office-toggle hide">
+						<ul>
+                        	<li>
+                            	<div class="off off_1"></div>
+                            	<div class="off_text">Word Online</div>
+							</li>
+
+							<li>
+                            	<div class="off off_2"></div>
+                            	<div class="off_text">Excel Online</div>
+							</li>
+
+							<li>
+                            	<div class="off off_3"></div>
+                            	<div class="off_text">PowerPoint Online</div>
+							</li>
+
+							<li>
+                            	<div class="off off_4"></div>
+                            	<div class="off_text">OneNote Online</div>
+							</li>
+
+							<li>
+                            	<div class="off off_5"></div>
+                            	<div class="off_text">Sway</div>
+							</li>
+
+							<li>
+                            	<div class="off off_6"></div>
+                            	<div class="off_text">Docs.com</div>
+							</li>
+
+							<li>
+                            	<div class="off off_7"></div>
+                            	<div class="off_text">OneDrive</div>
+							</li>
+
+							<li>
+                            	<div class="off off_8"></div>
+                            	<div class="off_text">日历</div>
+							</li>
+
+							<li>
+                            	<div class="off off_9"></div>
+                            	<div class="off_text">人脉</div>
+							</li>
+					</div>
+				<li><a href="https://outlook.com/?WT.mc_id=O16_BingHP?mkt=zh-CN" target="_blank" class="change-color">Outlook.com</a></li>	
+			</ul>
+
+		</div>
+
+		<div class="navbar-container right">
+			<ul>
+				<li class="change-color">
+					<a href="http://global.bing.com/?FORM=HPCNEN&setmkt=en-us&setlang=en-us">
+						<span class="global-icon"></span>
+						Switch to Bing in English
+					</a>
+				</li>
+				<li>|</li>
+				<li>
+					<div class="left change-color"><a href="javascript:void(0);">登录</a></div>
+					<i class="user-icon right"></i>
+				</li>
+				<li>
+					<div id="setting">
+						<div id="setting-panel" class="hide">
+							<ul>
+								<li>搜索历史纪录</li>
+								<li>设置</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="fixed-search">
+		<div id="search-icon"></div>
+		<input type="text" id="main-search">
+		<div id="out-submit">
+			<input type="submit" id="search-submit-btn" value="">
+		</div>
+	</div>
+
+	<div id="body-mask" class="hide"></div>
+
+	<div class="bottom-container">
+
+		<div class="bottom-control">
+            <div class="more bc_wrap"></div>
+            <div class="right_one bc_wrap" onclick="bg_change(1)"></div>
+            <div class="left_one bc_wrap" onclick="bg_change(0)"></div>
+            <div class="info bc_wrap"></div>
+		</div>
+
+		<div class="footer">
+			<div class="footer-container right">
+				<ul>
+					<li>@ 2016 Microsoft</li>
+		            <li>|</li>
+		            <li>京ICP备10036305号</li>
+		            <li>|</li>
+		            <li><a href="https://www.duba.com/?f=liebaosc" target="_blank" class="text_line">隐私声明和Cookie</a></li>
+		            <li>|</li>
+		            <li><a href="http://go.microsoft.com/fwlink/?LinkID=246338&CLCID=804" target="_blank" class="text_line">使用条款</a></li>
+		            <li>|</li>
+		            <li><a href="http://go.microsoft.com/?linkid=9844344" target="_blank" class="text_line">广告</a></li>
+		            <li>|</li>
+		            <li><a href="http://go.microsoft.com/fwlink/?LinkID=617297" target="_blank" class="text_line">帮助</a></li>
+		            <li>|</li>
+					<li class="feedback"><a href="http://cn.bing.com/#" target="_blank" class="text_line feedback">反馈</a></li>
+					<li>&nbsp;</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>	
+
+	<script type="text/javascript" src="js/index.js"></script>
+</body>

@@ -1,0 +1,19 @@
+{
+  "name": "fake-bing",
+  "version": "1.0.0",
+  "description": "fake static Bing page, implement to exercise CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bing"
+  ],
+  "author": "Tianshu Zhou",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-clean-css": "^2.0.10",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2"
+  }
+}
